@@ -1,17 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alışveriş Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>Selam Dünya</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias provident ducimus non porro reiciendis iusto
-        officiis laudantium recusandae? Porro veniam explicabo debitis distinctio exercitationem consequuntur voluptates
-        architecto reiciendis! In, obcaecati!</p>
-</body>
+    <header>
+        <h1>Alışveriş Sitesi</h1>
+    </header>
+    
+    <main>
+        <section class="products">
+            <div class="product">
+                <h2>Ürün 1</h2>
+                <p>Fiyat: 100 TL</p>
+                <button onclick="addToCart('Ürün 1', 100)">Sepete Ekle</button>
+            </div>
+            <div class="product">
+                <h2>Ürün 2</h2>
+                <p>Fiyat: 150 TL</p>
+                <button onclick="addToCart('Ürün 2', 150)">Sepete Ekle</button>
+            </div>
+            <div class="product">
+                <h2>Ürün 3</h2>
+                <p>Fiyat: 200 TL</p>
+                <button onclick="addToCart('Ürün 3', 200)">Sepete Ekle</button>
+            </div>
+        </section>
 
+        <section class="cart">
+            <h2>Sepet</h2>
+            <ul id="cart-items"></ul>
+            <p><strong>Toplam:</strong> <span id="total-price">0</span> TL</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
 </html>
