@@ -1,0 +1,20 @@
+{
+  "name": "habibe-goit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "goLive": "npm run dev",
+    "goPreview": "npm run build && npm run preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "simplelightbox": "^2.14.3"
+  }
+}
