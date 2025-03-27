@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "goLive": "npm run dev",
     "goPreview": "npm run build && npm run preview",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d dist"
   },
   "homepage": "https://github.com/habibecinar/Shopping-List",
