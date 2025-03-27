@@ -41,7 +41,11 @@ function searchProducts() {
   displayProducts(filteredProducts);
 }
 // Butona tıklandığında fonksiyonu çağır
-document.querySelector('#search-button').onclick = searchProducts;
+document.querySelector('#search-button').onclick =function() {
+  searchProducts();
+
+}
+  
 
 
 // **Sayfa tamamen yüklendikten sonra fetchProducts() fonksiyonunu çağır**
