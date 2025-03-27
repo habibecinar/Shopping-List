@@ -40,7 +40,8 @@ function searchProducts() {
   });
   displayProducts(filteredProducts);
 }
-
+// Butona tıklandığında fonksiyonu çağır
+document.querySelector('#search-button').onclick = searchProducts;
 
 
 // **Sayfa tamamen yüklendikten sonra fetchProducts() fonksiyonunu çağır**
