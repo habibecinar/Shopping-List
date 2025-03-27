@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "goLive": "npm run dev",
     "goPreview": "npm run build && npm run preview",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "homepage": "https://habibecinar.github.io/Shopping-List",
@@ -18,6 +18,7 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
+    "esbuild": "^0.25.1",
     "gh-pages": "^6.3.0",
     "simplelightbox": "^2.14.3"
   }

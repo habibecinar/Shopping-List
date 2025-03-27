@@ -9,6 +9,7 @@ export default defineConfig({
     port: 9000,
     // Dış Bağlantıları Kabul Et
     cors: true,
+    base: "/Shopping-List/"
   },
   build: {
     // Çıktıyı proje kökünde 'dist' klasörüne alır
