@@ -15,11 +15,11 @@
   },
   "homepage": "https://habibecinar.github.io/Shopping-List",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^6.2.0"
   },
   "dependencies": {
     "esbuild": "^0.25.1",
-    "gh-pages": "^6.3.0",
     "simplelightbox": "^2.14.3"
   }
 }
