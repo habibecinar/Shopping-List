@@ -12,6 +12,7 @@
     "goPreview": "npm run build && npm run preview",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://github.com/habibecinar/Shopping-List",
   "devDependencies": {
     "vite": "^6.2.0"
   },
