@@ -1,20 +1,22 @@
 {
-  "name": "habibe-goit",
+  "name": "shopping-list",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/shopping-list/",
     "preview": "vite preview",
     "goLive": "npm run dev",
-    "goPreview": "npm run build && npm run preview"
+    "goPreview": "npm run build && npm run preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^6.2.0"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "simplelightbox": "^2.14.3"
   }
 }
