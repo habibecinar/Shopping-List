@@ -1,12 +1,12 @@
 {
-  "name": "shopping-list",
+  "name": "Shopping-List",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build --base=/shopping-List/",
+    "build": "vite build --base=/Shopping-List/",
     "preview": "vite preview",
     "goLive": "npm run dev",
     "goPreview": "npm run build && npm run preview",
