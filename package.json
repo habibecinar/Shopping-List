@@ -13,7 +13,7 @@
     "predeploy":"npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://github.com/habibecinar/Shopping-List",
+  "homepage": "https://habibecinar.github.io/Shopping-List",
   "devDependencies": {
     "vite": "^6.2.0"
   },
